@@ -1,0 +1,11 @@
+---
+
+- name: Ubuntu ELK install
+  hosts: ubuntu
+  roles:
+    - elk_ubu
+
+- name: Centos ELK install
+  hosts: centos
+  roles:
+    - elk_cent
